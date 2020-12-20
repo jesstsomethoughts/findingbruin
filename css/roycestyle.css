@@ -1,0 +1,126 @@
+body {
+    background: #FBD266;
+    font-family: Patua One;
+    color: #252D33;
+    overflow:hidden;
+}
+
+.nav {
+    display:flex;
+    position: absolute;
+    width: 350px;
+    height: 135px;
+    left: 1020px;
+    top:-50px;
+    background: rgba(242, 228, 179, 0.65);
+    border-radius: 29px;
+}
+
+.navbar {
+    list-style:none;
+    margin-left: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.navbar li a {
+    font-family: Patua One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    text-decoration: none;
+    color: #252D33;
+}
+
+.navbar li a:hover {
+    color: #6689C3;
+}
+
+.royce {
+    position: absolute;
+    top: 90px;
+    left: 135px;
+    z-index:10;
+}
+
+.powell {
+    position: absolute;
+    top: 90px;
+    left: 220px;
+    z-index:10;
+}
+
+.main-container {
+    display:block;
+    width: 60%;
+    height: 850px;
+    margin: auto;
+    margin-top: -100px;
+    background: #6689C3;
+}
+
+.polaroid { 
+    position: absolute;
+    width: 20%;
+    height: 45%;
+    left: 325px;
+    top: 50px;
+    transform: rotate(-10deg);
+}
+
+.bear {
+    position: absolute;
+    width: 40%;
+    height: 70%;
+    left: 525px;
+    top: 250px;
+}
+
+.roycebutton {
+    position: absolute;
+    width: 189px;
+    height: 51px;
+    left: 1200px;
+    top: 650px;
+    background: #B54918;
+    border-radius: 27px;
+}
+
+.roycebuttontext {
+    font-family: Patua One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.locks {
+    display:flex;
+    flex-direction: row;
+    align-items: flex-end;
+    width: 38px;
+    height: 57px;
+}
+
+.locks .unlock {
+    position: absolute;
+    width: 38px;
+    height: 57px;
+    left:1165px;
+    top: 20px;
+    z-index:5;
+}
+
+.locks .lock2 {
+    position: absolute;
+    width: 38px;
+    height: 57px;
+    left:1255px;
+    top: 20px;
+    z-index: 5;
+}

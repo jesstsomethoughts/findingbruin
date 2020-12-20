@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="HandheldFriendly" content="true">
+        <title>where is my bruincard?</title>
+        <link href="https://fonts.googleapis.com/css2?family=Patua+One&display=swap" rel="stylesheet">
+        <link href="powell.css" type="text/css" rel="stylesheet">
+    </head>
+
+    <body>
+        <navbar class="nav">
+            <ul class="navbar">
+                <li>
+                    <a class="home" href="index.html">home</a>
+                </li>
+                <li>
+                    <a class="royce" href="realroyce.html">royce</a>
+                </li>
+                <li>
+                    <button class="powellbutton">
+                        <a class="powell" href="powell.html">powell</a>
+                    </button>
+                </li>
+            </ul>
+        </navbar>
+
+        <div class="main">
+            <img class="powellbackground" src="powell.svg">
+            <img class="nada" id="paper" src="paper.svg">
+            <img class="nada" id="lamp" src="lamp.svg">
+            <img class="nada" id="waterbottle" src="waterbottle.svg">
+            <div class="nada" id="pens"></div>
+            <img id="book1" src="book1.svg">
+            <img id="book2" src="book2.svg">
+            <img id="bookkey" src="book3.svg">
+            <img id="book3" src="book4.svg">
+            <img src="instructions2.svg" id="instructions">
+        </div>
+
+        <div class="bg-modal" id="myModal">
+            <img src="bear.svg" alt="">
+            <div class="modal-content" id="papermodal">
+                <p>hmmm... nothing here.</p>
+            </div>
+            <button href="powell.html" class="backbutton">back</button>
+        </div>
+    
+        <div class="bg-modal" id="book1Modal">
+            <img class="happybear" src="happybear.svg" alt="">
+            <div class="modal-content">
+                <p>just a normal book...</p>
+                <button href="powell.html" class="backbutton">back</button>
+                <img id="book1img" src="openbook1.svg">
+            </div>
+        </div>
+
+        <div class="bg-modal" id="book2Modal">
+            <img class="happybear" src="happybear.svg" alt="">
+            <div class="modal-content">
+                <p>just a normal book...</p>
+                <button href="powell.html" class="backbutton">back</button>
+                <img id="book2img" src="openbook2.svg">
+            </div>
+        </div>
+
+        <div class="bg-modal" id="book3Modal">
+            <img class="happybear" src="happybear.svg" alt="">
+            <div class="modal-content">
+                <p>just a normal book...</p>
+                <button href="powell.html" class="backbutton">back</button>
+                <img id="book3img" src="openbook3.svg">
+            </div>
+        </div>
+
+        <div class="bg-modal" id="winModal">
+            <img class="happybear" src="happybear.svg" alt="">
+            <div class="modal-content">
+                <p>you found it!</p>
+                <button class="backbutton"><a href="congrats.html">yay>></a></button>
+                <img id="bookwin" src="bookwin.svg">
+            </div>
+        </div>
+
+        <script src="powell.js"></script>
+    </body>
+</html>

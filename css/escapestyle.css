@@ -1,0 +1,289 @@
+.splash {
+    position:fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    height:100vh;
+    background:#A4CBCA;
+    z-index:200;
+    color:#252D33;
+    text-align:center;
+    line-height:90vh;
+}
+
+.splash h1 {
+    font-family: Patua One;
+    font-weight:lighter;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.splash.display-none {
+    position:fixed;
+    opacity: 0;
+    top:0;
+    left:0;
+    width: 100%;
+    height:100vh;
+    background:black;
+    z-index:-10;
+    color:#A4CBCA;
+    text-align:center;
+    line-height:90vh;
+    transition: all 1s;
+}
+
+.rush {
+    position:fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    height:100vh;
+    background:black;
+    z-index:100;
+    color:white;
+    text-align:center;
+    line-height:90vh;
+}
+
+.rush h1 {
+    font-family: Oswald;
+    font-weight:lighter;
+    text-align:center;
+}
+
+/* .rush.display-none {
+    position:fixed;
+    opacity: 0;
+    top:0;
+    left:0;
+    width: 100%;
+    height:100vh;
+    background:black;
+    z-index:-10;
+    color:white;
+    text-align:center;
+    line-height:90vh;
+    transition: all 0.5s;
+} */
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+.fade-in {
+    opacity: 0;
+    animation:fadeIn 1s ease-in forwards;
+}
+
+.enter {
+    background-color: white;
+    padding: 25px 45px;
+    color: lavender;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 1px 1px black;
+    font-size: 25px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.enter:hover {
+    background-color: lavender;
+    color: gray;
+    border: 2px solid white;
+    text-decoration:none;
+}
+
+/* this is where the figma homepage starts! */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: 'Patua One'; 
+    background: #A4CBCA;
+    overflow: hidden;
+}
+
+.nav-container { 
+    position: absolute;
+    width: 100%;
+    height: 120px;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    background: #A4CBCA;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 72px;
+}
+
+nav .nav-items {
+    display: flex;
+    align-items: center;
+    height: 72px;
+    margin-left: 850px;
+} */
+
+nav .homebutton {
+    position: absolute;
+    width: 94px;
+    height: 51px;
+    left: 1040px;
+    top: 35px;
+    background: rgba(215, 103, 53, 0.75);
+    border-radius: 10px;
+}
+
+nav .hometext {
+    width: 94px;
+    height: 31px;
+    left: 1040px;
+    top: 45px;
+    font-family: 'Patua One';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    text-decoration: none;
+    color: #F9F5E7;
+}
+
+nav .nav-items li {
+    list-style: none;
+    margin-right: 100px;
+    display: flex;
+    flex-direction: row;
+    top: 31px;
+}
+
+.nav-items li a {
+    font-family: Patua One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    text-align: center;
+    text-decoration: none;
+    color: #252D33;
+}
+
+.royce {
+    position: absolute;
+    width: 94px;
+    height: 31px;
+    left: 1170px;
+    top: 45px;
+}
+
+.powell {
+    position: absolute;
+    width: 94px;
+    height: 31px;
+    left: 1280px;
+    top: 45px;
+}
+
+.header-container {
+    position: absolute;
+    width: 100%;
+    height: 480px;
+    left: 0px;
+    top: 115px;
+    background: #FFE289;
+}
+
+.header-container h1 {
+    position: absolute;
+    left: 210px;
+    top: 110px;
+    width: 1090px;
+    height: 152px;
+    font-family: Patua One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 94px;
+    color: #252D33;
+}
+
+.hero-image {
+    position: absolute;
+    width: 226.15px;
+    height: 317.58px;
+    left: 137px;
+    top: 420px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.bear {
+    width: 120%;
+    height: 70%;
+}
+
+.startbutton {
+    position: absolute;
+    left: 550px;
+    top: 280px;
+    width: 330px;
+    height: 76px;
+    background: #6689C3;
+    border-radius: 27px;
+    font-family: Patua One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.startbutton:hover {
+    border: 10px solid #F1A000;
+    border-radius: 20px;
+    font-size: 33px;
+}
+
+.startbutton:active {
+    border: 17px solid #F1A000;
+    border-radius: 20px;
+    font-size: 33px;
+}
+
+.locks {
+    display:flex;
+    flex-direction: row;
+    align-items: flex-end;
+    width: 38px;
+    height: 57px;
+}
+
+.locks .lock1 {
+    position: absolute;
+    width: 38px;
+    height: 57px;
+    left:1198px;
+    top: 31px;
+}
+
+.locks .lock2 {
+    position: absolute;
+    width: 38px;
+    height: 57px;
+    left:1310px;
+    top: 31px;
+}
